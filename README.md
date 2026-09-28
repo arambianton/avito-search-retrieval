@@ -1,6 +1,6 @@
 # Запуск
 
-Python 3.11. Данные (`train.parquet`, `benchmark_items.parquet`, `benchmark_queries.parquet`) лежат в этой же папке.
+Python 3.11. Данные `.parquet` слишком тяжелые для github, не пушнулись.
 
 ```bash
 pip install -r requirements.txt
