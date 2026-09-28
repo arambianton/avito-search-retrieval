@@ -1,0 +1,14 @@
+# данные соревнования (выдают организаторы, сотни МБ)
+*.parquet
+!embeddings/**/*.parquet
+
+# эмбеддинги весят ~1.2 ГБ, GitHub не принимает файлы больше 100 МБ
+embeddings/
+
+# окружение и промежуточные файлы
+.venv/
+cache/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
